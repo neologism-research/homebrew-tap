@@ -14,7 +14,7 @@ Follow these steps whenever you make changes and need to bump the version for Ho
 Homebrew requires a strict SHA-256 hash validation for every release to prevent tampering. Run the following command in your terminal, replacing the URL with the tarball link for your new release:
 
 ```bash
-curl -sSL [https://github.com/neologism-research/<tool_name>/archive/refs/tags/v1.0.1.tar.gz](https://github.com/neologism-research/<tool_name>/archive/refs/tags/v1.0.1.tar.gz) | shasum -a 256
+curl -sSL https://github.com/neologism-research/<tool_name>/archive/refs/tags/v1.0.1.tar.gz | shasum -a 256
 ```
 
 Copy the 64-character alphanumeric string outputted by this command.
